@@ -1,0 +1,147 @@
+body {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.top-fold, footer {
+    font-size: 1.15rem;
+    color: #FFF;
+    background-color: #1F2937;
+}
+header .wrapper {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #F9FAf8;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+header ul li {
+    margin: 0;
+    padding: 0;
+}
+header ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+.hero .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem 0;
+    color: #F9FAF8;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+}
+.hero p {
+    font-size: 18px;
+}
+a.button {
+    display: inline-block;
+    color: #FFF;
+    line-height: 1;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    background-color: #3882F6;
+    border: .15rem solid #3882F6;
+    border-radius: .5rem;
+    transition: .3s;
+}
+a.button:hover {
+    background-color: transparent;
+    border-color: #FFF;
+}
+.hero img {
+    border-radius: .5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+}
+.info .wrapper {
+    text-align: center;
+    padding: 2rem 0;
+}
+.info .wrapper h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0 0 2rem;
+}
+.card-group {
+    display: flex;
+    gap: 3rem;
+}
+.image-placeholder {
+    width: 100%;
+    padding-bottom: 100%;
+    border: .25rem solid #3882F6;
+    border-radius: .5rem;
+}
+.quote {
+    padding: 5rem;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+.quote blockquote .author {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    color: #000;
+    text-align: right;
+    margin-top: .5rem;
+}
+.cta {
+    padding: 5rem 0;
+}
+.cta-box {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    padding: 3rem 6rem;
+    border-radius: .5rem;
+    gap: 2rem;
+    background-color: #3882F6;
+}
+.cta-text {
+    flex: 1;
+}
+.cta-box h3, .cta-box p {
+    margin: 0;
+}
+.cta-box a.button {
+    background-color: transparent;
+    border-color: #FFF;
+}
+.cta-box a.button:hover {
+    color: #3882F6;
+    background-color: #FFF;
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+}
